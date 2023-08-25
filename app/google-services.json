@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "721329502136",
+    "project_id": "kjh-proj01",
+    "storage_bucket": "kjh-proj01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721329502136:android:38ecccc20d88ea2c01c14d",
+        "android_client_info": {
+          "package_name": "com.nanumy.sharumbrella"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721329502136-6m3pro80bcbf99kk08kc02vkhvkrn95n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClUkgfv07aKkCEi6LMCnmxqdEro4E9ZPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721329502136-6m3pro80bcbf99kk08kc02vkhvkrn95n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
