@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".social_login">
+
+    <View
+        android:id="@+id/logo"
+        android:layout_width="142dp"
+        android:layout_height="77dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/logo"
+        />
+
+    <View
+        android:id="@+id/googlelogin"
+        android:layout_width="304dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/logingoogle"
+        />
+
+    <View
+        android:id="@+id/facebooklogin"
+        android:layout_width="304dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="265dp"
+        android:background="@drawable/loginfacebook"
+        />
+
+    <View
+        android:id="@+id/kakaologin"
+        android:layout_width="304dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/loginkakao"
+        />
+    <View
+        android:id="@+id/backtologin"
+        android:layout_width="159dp"
+        android:layout_height="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="473dp"
+        android:background="@drawable/backtologin"
+        />
+</RelativeLayout>

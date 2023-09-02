@@ -13,6 +13,39 @@
         android:theme="@style/Theme.Sharumbrella"
         tools:targetApi="31">
         <activity
+            android:name=".FindPassword_Reset"
+            android:exported="false" />
+        <activity
+            android:name=".FindPassword_phone"
+            android:exported="false" />
+        <activity
+            android:name=".FindID_phone"
+            android:exported="false" />
+        <activity
+            android:name=".membershipgeneral"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".my_page"
+            android:exported="false" />
+        <activity
+            android:name=".join_social_login"
+            android:exported="false" />
+        <activity
+            android:name=".social_login"
+            android:exported="false" />
+        <activity
+            android:name=".return1"
+            android:exported="false" />
+        <activity
+            android:name=".rental"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".first"
             android:exported="false" />
     </application>

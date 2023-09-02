@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".join_social_login">
+
+    <View
+        android:id="@+id/logo"
+        android:layout_width="142dp"
+        android:layout_height="77dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/logo"
+        />
+
+    <View
+        android:id="@+id/googlejoin"
+        android:layout_width="304dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/joingoogle"
+        />
+
+    <View
+        android:id="@+id/facebookjoin"
+        android:layout_width="304dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="265dp"
+        android:background="@drawable/joinfacebook"
+        />
+
+    <View
+        android:id="@+id/kakaojoin"
+        android:layout_width="304dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/joinkakao"
+        />
+    <View
+        android:id="@+id/backtojoin"
+        android:layout_width="181dp"
+        android:layout_height="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="473dp"
+        android:background="@drawable/backtojoin"
+        />
+</RelativeLayout>

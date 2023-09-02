@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <View
+            android:id="@+id/logo"
+            android:layout_width="142dp"
+            android:layout_height="77dp"
+            android:background="@drawable/logo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="35dp"
+            />
+
+        <View
+            android:id="@+id/rental"
+            android:layout_width="209dp"
+            android:layout_height="209dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="77dp"
+            android:background="@drawable/rental"
+            />
+
+        <View
+            android:id="@+id/return1"
+            android:layout_width="213dp"
+            android:layout_height="211dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="201dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/return1"
+            />
+
+        <View
+            android:id="@+id/umbrella"
+            android:layout_width="326dp"
+            android:layout_height="381dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="43dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="257dp"
+            android:background="@drawable/umbrella"
+            android:elevation="4dp"
+            />
+
+</RelativeLayout>

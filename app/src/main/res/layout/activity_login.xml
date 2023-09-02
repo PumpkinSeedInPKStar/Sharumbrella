@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <View
+        android:id="@+id/login_logo"
+        android:layout_width="171dp"
+        android:layout_height="117dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/logo"
+        />
+
+    <View
+        android:id="@+id/find_id"
+        android:layout_width="80dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="106dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/find_Id"
+        />
+
+
+    <View
+        android:id="@+id/find_ps"
+        android:layout_width="95dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="212dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/find_Password"
+        />
+
+    <View
+        android:id="@+id/id_input_box"
+        android:layout_width="265dp"
+        android:layout_height="39dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="355dp"
+        android:background="@drawable/ID_input_box"
+        />
+
+    <View
+        android:id="@+id/ps_input_box"
+        android:layout_width="265dp"
+        android:layout_height="39dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="416dp"
+        android:background="@drawable/Password_input_box"
+        />
+
+    <View
+        android:id="@+id/membership"
+        android:layout_width="67dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="114dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="473dp"
+        android:background="@drawable/Membership"
+        />
+
+    <View
+        android:id="@+id/social_login"
+        android:layout_width="80dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="219dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="473dp"
+        android:background="@drawable/Social_login"
+        />
+
+    <View
+        android:id="@+id/login_button"
+        android:layout_width="93dp"
+        android:layout_height="39dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="549dp"
+        android:background="@drawable/Login_button"
+        />
+
+</RelativeLayout>

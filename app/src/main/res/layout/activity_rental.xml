@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rental">
+
+    <View
+        android:id="@+id/waterdrop_1"
+        android:layout_width="78dp"
+        android:layout_height="91dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/waterdrop" />
+
+    <View
+        android:id="@+id/some_id"
+        android:layout_width="24dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="369dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/mypage_button"
+        />
+
+    <View
+        android:id="@+id/id_qr_"
+        android:layout_width="85dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="169dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="225dp"
+        android:background="@drawable/QR"
+        android:gravity="center_horizontal|top"
+        />
+
+    <View
+        android:id="@+id/idqrenter"
+        android:layout_width="293dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="252dp"
+        android:background="@drawable/rentalplacespace"
+        />
+
+    <View
+        android:id="@+id/rrcheck"
+        android:layout_width="73dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="169dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="303dp"
+        android:background="@drawable/rrcheck"
+        />
+
+    <View
+        android:id="@+id/rental_plac"
+        android:layout_width="135dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="394dp"
+        android:background="@drawable/RENTALPLACE"
+        android:gravity="center_horizontal|top" />
+
+    <View
+        android:id="@+id/rentalplacespace"
+        android:layout_width="293dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="421dp"
+        android:background="@drawable/rentalplacespace"
+        />
+
+</RelativeLayout>
