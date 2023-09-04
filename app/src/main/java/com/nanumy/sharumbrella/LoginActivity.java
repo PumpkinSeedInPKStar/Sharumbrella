@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
         mDatabaseRef = FirebaseDatabase.getInstance().getReference();
 
         mEtEmail = findViewById(R.id.email);
-        mEtPwd = findViewById(R.id.pwd);
+        mEtPwd = findViewById(R.id.mEtPwd);
         mBTnRegister = findViewById(R.id.mber);
         mBTnLogin= findViewById(R.id.login);
 

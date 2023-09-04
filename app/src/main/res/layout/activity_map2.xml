@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".membershipgeneral">
+
+    <View
+        android:id="@+id/logo2"
+        android:layout_width="142dp"
+        android:layout_height="77dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/logo" />
+
+    <View
+        android:id="@+id/id"
+        android:layout_width="47dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="214dp"
+        android:background="@drawable/ID2"
+        android:gravity="center_horizontal|top" />
+
+    <View
+        android:id="@+id/password"
+        android:layout_width="63dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="277dp"
+        android:background="@drawable/Password"
+        android:gravity="center_horizontal|top" />
+
+    <View
+        android:id="@+id/password_ch"
+        android:layout_width="100dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/Password_Check" />
+
+    <View
+        android:id="@+id/Name"
+        android:layout_width="28dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="403dp"
+        android:background="@drawable/Name_input"
+        android:gravity="center_horizontal|top" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="173dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="206dp"
+        android:background="@drawable/InputID_box"
+        android:padding="20dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/mEtPwd"
+        android:layout_width="173dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="269dp"
+        android:background="@drawable/InputPassword_box"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/chPwd"
+        android:layout_width="173dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/PasswordCheck_box"
+        android:padding="20dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="110dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="395dp"
+        android:background="@drawable/AuthenticationNumber_input_button"
+        android:padding="20dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/AuthCheck"
+        android:layout_width="73dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/AuthCheck_box"
+        android:contentDescription="인증 하는 버튼"
+        android:padding="20dp" />
+
+    <ImageButton
+        android:id="@+id/Cancel_button"
+        android:layout_width="93dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="548dp"
+        android:background="@drawable/Cancel_button"
+        android:contentDescription="취소 버튼(뒤로 가기)"
+        android:padding="20dp" />
+
+    <ImageButton
+        android:id="@+id/background"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="548dp"
+        android:layout_marginEnd="73dp"
+        android:background="@drawable/Membership_button2"
+        android:contentDescription="회원 가입 버튼"
+        android:padding="20dp" />
+
+    <ImageButton
+        android:id="@+id/social"
+        android:layout_width="163dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="620dp"
+        android:contentDescription="소셜 로그인으로 회원가입"
+        android:background="@drawable/SocialLogin_Mem" />
+</RelativeLayout>

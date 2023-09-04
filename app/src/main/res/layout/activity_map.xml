@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <View
+        android:id="@+id/login_logo"
+        android:layout_width="171dp"
+        android:layout_height="117dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/logo"
+        />
+
+    <ImageButton
+        android:id="@+id/find_id"
+        android:layout_width="80dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="106dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/find_Id"
+        android:contentDescription="아이디 찾기"
+        />
+
+
+    <ImageButton
+        android:id="@+id/find_ps"
+        android:layout_width="95dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="212dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="320dp"
+        android:contentDescription="비밀번호 찾기"
+        android:background="@drawable/find_Password"
+        />
+
+    <EditText
+        android:id="@+id/id_email"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="355dp"
+        android:background="@drawable/ID_input_box"
+        android:hint="   이메일을 입력하세요"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/ps"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="416dp"
+        android:background="@drawable/Password_input_box"
+        android:hint="   비밀번호를 입력하세요"
+        android:inputType="textPassword" />
+
+    <ImageButton
+        android:id="@+id/membership"
+        android:layout_width="67dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="114dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="473dp"
+        android:contentDescription="회원 가입"
+        android:background="@drawable/Membership"
+        />
+
+    <ImageButton
+        android:id="@+id/social_login"
+        android:layout_width="80dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="219dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="473dp"
+        android:contentDescription="소셜 로그인"
+        android:background="@drawable/Social_login"
+        />
+
+    <ImageButton
+        android:id="@+id/login_button"
+        android:layout_width="93dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="549dp"
+        android:contentDescription="로그"
+        android:background="@drawable/Login_button" />
+
+</RelativeLayout>
