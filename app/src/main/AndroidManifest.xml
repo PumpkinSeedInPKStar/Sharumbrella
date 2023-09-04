@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sharumbrella"
         tools:targetApi="31">
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="YOUR_CLIENT_ID" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".FindPassword_Reset"
             android:exported="false" />
