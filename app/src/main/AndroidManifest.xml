@@ -12,7 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sharumbrella"
         tools:targetApi="31">
-
+        <activity
+            android:name=".DatabaseUmbrella"
+            android:exported="false" />
+        <activity
+            android:name=".ReturnMap"
+            android:exported="false" />
+        <activity
+            android:name=".RentalMap"
+            android:exported="false" />
         <activity
             android:name=".MapActivity3"
             android:exported="false" />
@@ -34,14 +42,7 @@
             android:value="YOUR_CLIENT_ID" />
 
         <activity
-            android:name=".RegisterActivity"
-            android:exported="false" />
-        <activity
             android:name=".LoginActivity"
-            android:exported="false">
-        </activity>
-        <activity
-            android:name=".FindPassword_Reset"
             android:exported="false" />
         <activity
             android:name=".FindPassword_phone"
@@ -51,9 +52,6 @@
             android:exported="false" />
         <activity
             android:name=".membershipgeneral"
-            android:exported="false" />
-        <activity
-            android:name=".login"
             android:exported="false" />
         <activity
             android:name=".my_page"

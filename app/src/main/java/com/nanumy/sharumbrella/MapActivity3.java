@@ -13,7 +13,7 @@ public class MapActivity3 {
     private String idToken; // firebase Uid (고유 토큰정보)
     private String emailId; // 이메일 아이디
     private String password;// 비밀번호
-    private String UserName;
+    private String UserName;// 유저 이름
 
     public MapActivity3(){}
 

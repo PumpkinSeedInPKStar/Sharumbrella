@@ -42,7 +42,6 @@ public class MapActivity2 extends AppCompatActivity {
         mEtUserName = findViewById(R.id.UserName);
 
         mBTnRegister = findViewById(R.id.background);
-        mBTnAuthCheck = findViewById(R.id.AuthCheck);
         mBTnCancle = findViewById(R.id.Cancel_button);
         mBTnSocialLogin = findViewById(R.id.social);
 
