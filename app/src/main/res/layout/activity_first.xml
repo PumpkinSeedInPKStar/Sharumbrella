@@ -18,14 +18,15 @@
         />
 
     <View
-        android:id="@+id/logo"
+        android:id="@+id/logowhite"
         android:layout_width="332dp"
         android:layout_height="194dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="45dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="269dp"
         android:background="@drawable/logowhite"
+        android:elevation="4dp"
         />
 
 </RelativeLayout>

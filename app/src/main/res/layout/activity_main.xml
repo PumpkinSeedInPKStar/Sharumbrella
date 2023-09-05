@@ -11,7 +11,7 @@
             android:id="@+id/logo"
             android:layout_width="142dp"
             android:layout_height="77dp"
-            android:background="@drawable/logo"
+            android:background="@drawable/orangelogo"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="135dp"
@@ -26,7 +26,7 @@
             android:layout_marginLeft="3dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="77dp"
-            android:background="@drawable/rental"
+            android:background="@drawable/main_rental"
             />
 
         <View
@@ -37,7 +37,7 @@
             android:layout_marginLeft="201dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="75dp"
-            android:background="@drawable/return1"
+            android:background="@drawable/main_return"
             />
 
         <View
@@ -48,7 +48,7 @@
             android:layout_marginLeft="43dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="257dp"
-            android:background="@drawable/umbrella"
+            android:background="@drawable/main_umbrella"
             android:elevation="4dp"
             />
 

@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="167dp"
         android:layout_marginTop="25dp"
-        android:background="@drawable/smileumbrella" />
+        android:background="@drawable/return_smileumbrella" />
 
     <View
         android:id="@+id/some_id"
@@ -25,18 +25,18 @@
         android:layout_marginLeft="369dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="43dp"
-        android:background="@drawable/mypage_button"
+        android:background="@drawable/rental_mypage"
         />
 
     <View
         android:id="@+id/id_qr_"
-        android:layout_width="85dp"
-        android:layout_height="18dp"
+        android:layout_width="74dp"
+        android:layout_height="15dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="169dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="225dp"
-        android:background="@drawable/QR"
+        android:background="@drawable/rental_qr"
         android:gravity="center_horizontal|top"
         />
 
@@ -48,7 +48,7 @@
         android:layout_marginLeft="59dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="252dp"
-        android:background="@drawable/rentalplacespace"
+        android:background="@drawable/rental_enterplace"
         />
 
     <View
@@ -59,18 +59,18 @@
         android:layout_marginLeft="169dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="303dp"
-        android:background="@drawable/rrcheck"
+        android:background="@drawable/rental_ok"
         />
 
     <View
         android:id="@+id/rental_plac"
-        android:layout_width="135dp"
-        android:layout_height="16dp"
+        android:layout_width="112dp"
+        android:layout_height="13dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="140dp"
+        android:layout_marginLeft="150dp"
         android:layout_marginTop="394dp"
-        android:background="@drawable/RENTALPLACE"
+        android:background="@drawable/return_return"
         android:gravity="center_horizontal|top" />
 
     <View
@@ -81,7 +81,7 @@
         android:layout_marginLeft="59dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="421dp"
-        android:background="@drawable/rentalplacespace"
+        android:background="@drawable/rental_enterplace"
         />
 
 </RelativeLayout>

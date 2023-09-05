@@ -8,85 +8,84 @@
     tools:context=".login">
 
     <View
-        android:id="@+id/login_logo"
+        android:id="@+id/orangelogo"
         android:layout_width="171dp"
         android:layout_height="117dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="120dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="144dp"
-        android:background="@drawable/logo"
+        android:background="@drawable/orangelogo"
         />
 
     <ImageButton
         android:id="@+id/find_id"
-        android:layout_width="80dp"
-        android:layout_height="17dp"
+        android:layout_width="74dp"
+        android:layout_height="15dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="106dp"
+        android:layout_marginLeft="108dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="320dp"
-        android:background="@drawable/find_Id"
+        android:layout_marginTop="321dp"
+        android:background="@drawable/find_id"
         android:contentDescription="아이디 찾기"
         />
 
 
     <ImageButton
         android:id="@+id/find_ps"
-        android:layout_width="95dp"
-        android:layout_height="17dp"
+        android:layout_width="93dp"
+        android:layout_height="16dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="212dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="321dp"
         android:contentDescription="비밀번호 찾기"
-        android:background="@drawable/find_Password"
+        android:background="@drawable/find_password"
         />
 
     <EditText
         android:id="@+id/id_email"
         android:layout_width="265dp"
-        android:layout_height="48dp"
+        android:layout_height="39dp"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginTop="355dp"
-        android:background="@drawable/ID_input_box"
+        android:background="@drawable/login_id_input_box"
         android:hint="   이메일을 입력하세요"
         android:inputType="text" />
 
     <EditText
         android:id="@+id/ps"
         android:layout_width="265dp"
-        android:layout_height="48dp"
+        android:layout_height="39dp"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginTop="416dp"
-        android:background="@drawable/Password_input_box"
+        android:background="@drawable/login_password_input_box"
         android:hint="   비밀번호를 입력하세요"
         android:inputType="textPassword" />
 
     <ImageButton
         android:id="@+id/membership"
-        android:layout_width="67dp"
-        android:layout_height="17dp"
+        android:layout_width="63dp"
+        android:layout_height="16dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="114dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="114dp"
         android:layout_marginTop="473dp"
-        android:contentDescription="회원 가입"
-        android:background="@drawable/Membership"
-        />
+        android:background="@drawable/membership"
+        android:contentDescription="회원 가입" />
 
     <ImageButton
         android:id="@+id/social_login"
-        android:layout_width="80dp"
-        android:layout_height="17dp"
+        android:layout_width="78dp"
+        android:layout_height="16dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="219dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="473dp"
         android:contentDescription="소셜 로그인"
-        android:background="@drawable/Social_login"
+        android:background="@drawable/social_login"
         />
 
     <ImageButton
@@ -97,6 +96,6 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="549dp"
         android:contentDescription="로그"
-        android:background="@drawable/Login_button" />
+        android:background="@drawable/login_button" />
 
 </RelativeLayout>

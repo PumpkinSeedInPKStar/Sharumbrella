@@ -15,18 +15,18 @@
         android:layout_marginLeft="135dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="35dp"
-        android:background="@drawable/logo"
+        android:background="@drawable/orangelogo"
         />
 
     <View
         android:id="@+id/findid"
-        android:layout_width="140dp"
+        android:layout_width="145dp"
         android:layout_height="30dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="140dp"
-        android:background="@drawable/find_Id" />
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="159dp"
+        android:background="@drawable/findid_find_id" />
 
     <View
         android:id="@+id/findid_back"
@@ -35,19 +35,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="21dp"
-        android:layout_marginTop="220dp"
-        android:background="@drawable/FindID_back"
-        />
-
-    <View
-        android:id="@+id/PhoneNumberbutton"
-        android:layout_width="135dp"
-        android:layout_height="52dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="33dp"
-        android:layout_marginTop="199dp"
-        android:background="@drawable/PhoneNumberbutton"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/findid_background"
         />
 
     <View
@@ -56,20 +45,20 @@
         android:layout_height="52dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="171dp"
-        android:layout_marginTop="199dp"
-        android:background="@drawable/Email"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="219dp"
+        android:background="@drawable/findid_email_button"
         />
 
     <View
         android:id="@+id/findid_name"
-        android:layout_width="35dp"
-        android:layout_height="20dp"
+        android:layout_width="32dp"
+        android:layout_height="17dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="89dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="332dp"
-        android:background="@drawable/findID_Name"
+        android:layout_marginTop="352dp"
+        android:background="@drawable/findid_name"
         />
 
     <View
@@ -79,20 +68,19 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="176dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="326dp"
-        android:background="@drawable/InputName_box"
+        android:layout_marginTop="343dp"
+        android:background="@drawable/findid_enter_name"
         />
 
     <View
-        android:id="@+id/Find_it_on_phoneNum"
-        android:layout_width="129.5dp"
-        android:layout_height="20dp"
+        android:id="@+id/Find_it_on_email"
+        android:layout_width="98dp"
+        android:layout_height="17dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="40dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="413dp"
-        android:background="@drawable/Find_it_on_phoneNum"
-        />
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="419dp"
+        android:background="@drawable/findid_email" />
 
     <View
         android:id="@+id/InputPhoneNum_box"
@@ -102,7 +90,7 @@
         android:layout_marginLeft="176dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="406dp"
-        android:background="@drawable/InputPhoneNum_box"
+        android:background="@drawable/findid_enter_email"
         />
 
     <View
@@ -114,8 +102,8 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="159dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="528dp"
-        android:background="@drawable/rrcheck"
+        android:layout_marginTop="524dp"
+        android:background="@drawable/findid_ok"
         />
 
 </RelativeLayout>
