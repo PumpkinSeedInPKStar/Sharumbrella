@@ -18,7 +18,7 @@
             android:layout_marginTop="35dp"
             />
 
-        <View
+        <ImageButton
             android:id="@+id/rental"
             android:layout_width="209dp"
             android:layout_height="209dp"
@@ -27,9 +27,10 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="77dp"
             android:background="@drawable/main_rental"
+            tools:ignore="SpeakableTextPresentCheck"
             />
 
-        <View
+        <ImageButton
             android:id="@+id/return1"
             android:layout_width="213dp"
             android:layout_height="211dp"
@@ -38,6 +39,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="75dp"
             android:background="@drawable/main_return"
+            tools:ignore="SpeakableTextPresentCheck"
             />
 
         <View

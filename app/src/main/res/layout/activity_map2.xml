@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".membershipgeneral">
+    tools:context=".MapActivity2">
 
     <View
         android:id="@+id/logo2"
@@ -69,7 +69,6 @@
         android:layout_marginLeft="119dp"
         android:layout_marginTop="215dp"
         android:background="@drawable/map2_inputid_box"
-        android:padding="20dp"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
@@ -92,7 +91,6 @@
         android:layout_marginLeft="119dp"
         android:layout_marginTop="341dp"
         android:background="@drawable/map2_passwordcheck_box"
-        android:padding="20dp"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
@@ -104,7 +102,6 @@
         android:layout_marginLeft="119dp"
         android:layout_marginTop="404dp"
         android:background="@drawable/map2_name_input_box"
-        android:padding="20dp"
         tools:ignore="SpeakableTextPresentCheck" />
 
 

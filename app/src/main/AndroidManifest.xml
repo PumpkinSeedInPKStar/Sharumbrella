@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sharumbrella"
         tools:targetApi="31">
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="dsajemc7rb" />
+
         <activity
             android:name=".DatabaseUmbrella"
             android:exported="false" />
@@ -29,29 +33,13 @@
             android:exported="false" />
         <activity
             android:name=".MapActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <meta-data
-            android:name="com.naver.maps.map.CLIENT_ID"
-            android:value="YOUR_CLIENT_ID" />
-
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
         <activity
             android:name=".FindPassword_phone"
             android:exported="false" />
         <activity
             android:name=".FindID_phone"
-            android:exported="false" />
-        <activity
-            android:name=".membershipgeneral"
             android:exported="false" />
         <activity
             android:name=".my_page"
@@ -71,9 +59,17 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+
         <activity
             android:name=".first"
-            android:exported="false" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

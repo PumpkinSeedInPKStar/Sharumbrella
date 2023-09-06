@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login">
+    tools:context=".MapActivity">
 
     <View
         android:id="@+id/orangelogo"
@@ -95,7 +95,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginTop="549dp"
-        android:contentDescription="로그"
-        android:background="@drawable/login_button" />
+        android:background="@drawable/login_button"
+        android:contentDescription="로그" />
 
 </RelativeLayout>

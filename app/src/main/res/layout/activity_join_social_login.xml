@@ -18,7 +18,7 @@
         android:background="@drawable/orangelogo"
         />
 
-    <View
+    <ImageButton
         android:id="@+id/googlejoin"
         android:layout_width="304dp"
         android:layout_height="66dp"
@@ -27,9 +27,10 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="170dp"
         android:background="@drawable/joinsl_joingoogle"
+        android:contentDescription="Google 회원가입"
         />
 
-    <View
+    <ImageButton
         android:id="@+id/facebookjoin"
         android:layout_width="304dp"
         android:layout_height="66dp"
@@ -38,9 +39,10 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="265dp"
         android:background="@drawable/joinsl_joinfacebook"
+        android:contentDescription="페이스북 회원가입"
         />
 
-    <View
+    <ImageButton
         android:id="@+id/kakaojoin"
         android:layout_width="304dp"
         android:layout_height="66dp"
@@ -49,8 +51,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="360dp"
         android:background="@drawable/joinsl_joinkakao"
+        android:contentDescription="카카오 회원가입"
         />
-    <View
+    <ImageButton
         android:id="@+id/backtojoin"
         android:layout_width="180dp"
         android:layout_height="18dp"
@@ -59,5 +62,6 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="475dp"
         android:background="@drawable/joinsl_backtojoin"
+        android:contentDescription="회원 가입 화면으로 돌아가기"
         />
 </RelativeLayout>

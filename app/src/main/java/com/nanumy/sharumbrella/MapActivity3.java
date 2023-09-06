@@ -16,6 +16,11 @@ public class MapActivity3 {
     private String UserName;// 유저 이름
 
     public MapActivity3(){}
+    public MapActivity3(String emailId, String password, String UserName) {
+        this.emailId = emailId;
+        this.password = password;
+        this.UserName = UserName;
+    }
 
     public String getIdToken(){return idToken;}
     public void setIdToken(String idToken){this.idToken = idToken;}

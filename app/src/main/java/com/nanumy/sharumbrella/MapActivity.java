@@ -59,6 +59,8 @@ public class MapActivity extends AppCompatActivity {
                             finish();
                         }else {
                             Toast.makeText(MapActivity.this, "로그인 실패", Toast.LENGTH_LONG).show();
+                            Intent intent = new Intent(MapActivity.this, MapActivity.class);
+                            startActivity(intent);
                         }
                     }
                 });
