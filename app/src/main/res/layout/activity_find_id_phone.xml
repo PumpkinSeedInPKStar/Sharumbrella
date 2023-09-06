@@ -61,7 +61,7 @@
         android:background="@drawable/findid_name"
         />
 
-    <View
+    <EditText
         android:id="@+id/inputname_b"
         android:layout_width="173dp"
         android:layout_height="39dp"
@@ -70,6 +70,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="343dp"
         android:background="@drawable/findid_enter_name"
+        tools:ignore="SpeakableTextPresentCheck"
         />
 
     <View
@@ -82,7 +83,7 @@
         android:layout_marginTop="419dp"
         android:background="@drawable/findid_email" />
 
-    <View
+    <EditText
         android:id="@+id/InputPhoneNum_box"
         android:layout_width="173dp"
         android:layout_height="39dp"
@@ -91,9 +92,10 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="406dp"
         android:background="@drawable/findid_enter_email"
+        tools:ignore="SpeakableTextPresentCheck"
         />
 
-    <View
+    <ImageButton
         android:id="@+id/background"
         android:layout_width="93dp"
         android:layout_height="39dp"
@@ -104,6 +106,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="524dp"
         android:background="@drawable/findid_ok"
+        android:contentDescription="확인 버튼"
         />
 
 </RelativeLayout>
