@@ -20,15 +20,15 @@ public class social_login extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_join_social_login);
+        setContentView(R.layout.activity_social_login);
 
         mFirebaseAuth = FirebaseAuth.getInstance();
         mDatabaseRef = FirebaseDatabase.getInstance().getReference("Sharumbrella");
 
-        mBtnGooglejoin = findViewById(R.id.googlejoin);
-        mBtnFacebookjoin = findViewById(R.id.facebookjoin);
-        mBtnKakaojoin = findViewById(R.id.kakaojoin);
-        mBtnBacktojoin = findViewById(R.id.backtojoin);
+        mBtnGooglejoin = findViewById(R.id.googlelogin);
+        mBtnFacebookjoin = findViewById(R.id.facebooklogin);
+        mBtnKakaojoin = findViewById(R.id.kakaologin);
+        mBtnBacktojoin = findViewById(R.id.backtologin);
 
         mBtnBacktojoin.setOnClickListener(new View.OnClickListener() {
             @Override

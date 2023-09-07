@@ -65,7 +65,7 @@ public class return1 extends AppCompatActivity {
                                 // 네이버 지도 화면에서 편의점 위치를 찾고 반납 처리를 완료해야 합니다.
 
                                 // 네이버 지도 화면으로 이동
-                                Intent intent = new Intent(return1.this, ReturnMap.class);
+                                Intent intent = new Intent(return1.this, ReturnMap2.class);
                                 // 네이버 지도 화면으로 우산 ID와 주소를 전달할 수 있도록 인텐트에 데이터 추가
                                 intent.putExtra("umbrellaId", umbrellaId);
                                 intent.putExtra("umbrellaAddress", umbrellaAddress);

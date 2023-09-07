@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,9 +16,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sharumbrella"
         tools:targetApi="31">
+        <activity
+            android:name=".ShowUserID"
+            android:exported="false" />
+        <activity
+            android:name=".MapResponse"
+            android:exported="false" />
+        <activity
+            android:name=".ApiKeyInterceptor"
+            android:exported="false" />
+        <activity
+            android:name=".ReturnMap2"
+            android:exported="false" />
+
         <meta-data
             android:name="com.naver.maps.map.CLIENT_ID"
             android:value="dsajemc7rb" />
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_TYPE"
+            android:value="gov" />
 
         <activity
             android:name=".DatabaseUmbrella"
@@ -33,8 +53,7 @@
             android:exported="false" />
         <activity
             android:name=".MapActivity"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".FindPassword_phone"
             android:exported="false" />
@@ -59,7 +78,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-
         <activity
             android:name=".first"
             android:exported="true">
@@ -69,7 +87,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

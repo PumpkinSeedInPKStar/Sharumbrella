@@ -78,7 +78,7 @@ public class MapActivity2 extends AppCompatActivity {
         mBTnSocialLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // '소셜 로그린으로 회원 가입' 누르면 소셜 로그인 회원가입 창으로 넘어감
+                // '소셜 로그인으로 회원 가입' 누르면 소셜 로그인 회원가입 창으로 넘어감
                 Intent intent = new Intent(MapActivity2.this, join_social_login.class);
                 startActivity(intent);
             }

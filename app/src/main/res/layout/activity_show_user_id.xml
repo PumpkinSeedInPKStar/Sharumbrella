@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowUserID">
+    <View
+        android:id="@+id/logo"
+        android:layout_width="142dp"
+        android:layout_height="77dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/orangelogo"
+        />
+    <View
+        android:id="@+id/findid"
+        android:layout_width="145dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="159dp"
+        android:background="@drawable/findid_find_id" />
+
+    <View
+        android:id="@+id/findid_back"
+        android:layout_width="370dp"
+        android:layout_height="425dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/findid_background"
+        />
+    <View
+        android:id="@+id/Email"
+        android:layout_width="135dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="219dp"
+        android:background="@drawable/findid_email_button"
+        />
+    <ImageButton
+        android:id="@+id/background"
+        android:layout_width="93dp"
+        android:layout_height="39dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="159dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="524dp"
+        android:background="@drawable/findid_ok"
+        android:contentDescription="확인 버튼"
+        />
+
+    <TextView
+        android:id="@+id/inputname_b"
+        android:layout_width="173dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="387dp"
+        android:background="@drawable/findid_enter_name"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>
